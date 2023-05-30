@@ -1,0 +1,189 @@
+@import url(font.css);
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  padding-bottom: 77px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+nav .navBox {
+  width: 90%;
+  height: 1.5em;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .right {
+  font-size: 0.7em;
+  margin-top: 0.5em;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav .right a {
+  padding: 0 0.5em;
+}
+
+nav .right a:hover {
+  color: rgb(200, 0, 0);
+  text-decoration: none;
+}
+
+#home {
+  width: 100%;
+  min-height: 400px;
+  background-color: #0f0f0f;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+#home .imgContainer {
+  width: 200px;
+  height: 200px;
+  margin: 0px auto;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+#home .profileImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#home .greetingBox {
+  margin-top: 20px;
+  /* 줄간간격 */
+  line-height: 35px;
+  color: rgb(255, 255, 255);
+  }
+#home .greeting {
+  font-size: 24px;
+  }
+  #home .introduce {
+  font-size: 18px;
+  }
+  #home .contactBox {
+  margin-top: 77px;
+  font-size: 15px;
+  }
+  #home .contactBtn {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  }
+#contact {
+  font-family: 'Times New Roman',
+}
+#contact .contact-body form{
+  width: 50%;
+  margin: 0 auto;
+}
+#contact form p{
+  margin: 15px 0;
+}
+#contact form .input{
+  width: 100%;
+  border: 2px black solid;
+  border-radius: 10px;
+  font-size:20px;
+  text-align:center;
+}
+#contact from .name{
+  height: 40px;
+}
+#contact form .textarea{
+  min-height: 150px;
+}
+.contactList li{
+  border-bottom:1px solid #ccc;
+  padding: 10px;
+}
+form input[type="submit"]{
+width: 50%;
+border: 2px black solid;
+border-radius: 10px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+}
+footer {
+  height: 100px;
+  text-align: center;
+}
+footer p{
+  width:100%
+}
+.footerBox{
+  width:100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  background-color: green;
+}
+
+  .footerBox .snsBox{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 3px double black;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .email{
+    color: #db4437;
+
+  }
+  .instagram{
+    color: #e1306c;
+    background:  linear-gradient(
+      to left bottom,
+      #405de6,
+      #5b51d8,
+      #833ab4,
+      #c13584,
+      #e1306c,
+      #f77737,
+      #ffdc80
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .facebook{
+    color: #4267b2;
+  }
+  .github{
+    color: #333;
+  }
+  .tistory{
+    color:#d93d04;
+  }
+

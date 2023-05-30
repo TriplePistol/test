@@ -1,0 +1,37 @@
+.title {
+    font-size: 3em;
+    padding: 2em 0 1em 0;
+    font-family: "Staatliches", cursive;
+    }
+    #skills {
+    margin: 0 auto;
+    background-color: #edecea;
+    }
+    #skills .skills-body {
+    width: 77%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    }
+    #skills .skillsBox {
+    width: 17em;
+    border: 1px solid #c4bcb8;
+    /* display: block; */
+    border-radius: 5%;
+    margin: 0 0 2em 0;
+    background-color: #e2dfd8;
+    box-shadow: 5px 5px 5px 5px #c4bcb8;
+    }
+    .skillsBox h2 {
+    width: 77%;
+    margin: 0 auto;
+    padding: 7px 0;
+    font-size: 2em;
+    font-family: "Staatliches", cursive;
+    border-bottom: 1px solid #000;
+    }
+    .skillsBox .skillsContent {
+    margin: 1em 0;
+    }
